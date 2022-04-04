@@ -1,0 +1,55 @@
+
+.grid {
+
+  
+  width: 400px;
+  height: 600px;
+  background-color: yellow;
+  position: relative;
+  font-size: 150px;
+  text-align: center;
+  
+}
+
+.doodler {
+  width: 60px;
+  height: 85px;
+  background-color: red;
+  position: absolute;
+}
+
+.platform {
+  width: 85px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+}
+
+.btn {
+  text-align: center;
+  background-color: green;
+  width: 80px;
+  height: 30px;
+  top: 250px;
+  left: 160px;
+  position: absolute;
+
+}
+
+.btn:hover {
+  background-color: #a6eba9;
+  color: white;
+}
+
+ p {
+
+  font-size: 20px;
+  position: absolute;
+  top: 80px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
