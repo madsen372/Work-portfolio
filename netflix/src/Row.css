@@ -1,0 +1,35 @@
+.row {
+  margin-left: 20px;
+  color: white;
+}
+.row_posters {
+  /*Fix so its a row not a column */
+  display: flex;
+  overflow-y: hidden;
+  overflow-y: scroll;
+  padding: 20px; /*Man skal padding ens container ellers cropper den billedet og zoomer ind, kontra forstørrer billedet*/
+}
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row_poster {
+  width: 100%;
+  object-fit: contain;
+  max-height: 100px;
+  margin-right: 10px;
+  transition: transform 450ms; /* Giver et delay til når vi hover fordi den transitioner. Uden er det meget statisk*/
+}
+
+.row_poster:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.row_posterLarge {
+  max-height: 250px;
+}
+
+.row_posterLarge:hover {
+  transform: scale(1.09);
+}
